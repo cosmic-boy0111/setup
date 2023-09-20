@@ -7,3 +7,15 @@
 3.  using states or any other hook or client side management
     the declare the component as client side component
     https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
+
+4.  Data fetching
+    1.  server side rendering (SSR) 
+        ->  fetch the data every single call
+    2.  static side generation (SSG)
+        ->  store the data in cache and used it
+    3.  incremental static rendering (ISR)
+        ->  combination of above two
+        ->  we can provide the additonal parameter 
+            revalidate to store the data for the
+            perticular interval of time
+    *   By default Nexjs use static side generation for data fetching
