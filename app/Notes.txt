@@ -1,0 +1,9 @@
+1.  by default the pages or the component we create are
+    render using server side
+
+2.  if you wish to render the component by client side 
+    then you can write "use client" at the tocomponent
+
+3.  using states or any other hook or client side management
+    the declare the component as client side component
+    https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
